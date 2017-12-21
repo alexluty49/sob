@@ -10,6 +10,7 @@ c = tuple(slovo)
 for i in c:
     print (i)
     
+
 list = []
 d = list.append(i)
 print(list)
