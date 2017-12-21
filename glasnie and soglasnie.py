@@ -7,18 +7,11 @@ while True:
     slovo = input()
     c = tuple(slovo)
 
-    for i in c:
-        print (i)
     
-
-    list = []
-    d = list.append(i)
-    print(list)
-
-    if i in list[0] in glasnie:
+    if c[0] in glasnie:
         print("Слово начинается с гласной буквы ")
 
-    if i in list[0] in soglasnie:
+    if c[0] in soglasnie:
         print("Слово начинается с согласной буквы")
 
 
